@@ -1,0 +1,45 @@
+.active{
+    color: white;;
+    background-color: blue;
+    cursor: pointer;
+    /* border: 2px solid black;
+    font-size: 12px;
+    padding: 2px; */
+}
+.active, .disabled, .normal{
+    border: 2px solid black;
+    font-size: 12px;
+    padding: 2px;
+
+}
+.disabled{
+ color: white;
+ background-color: grey;
+ border: 2px solid grey;
+ cursor:not-allowed
+
+}
+.normal{
+    color: black;
+    background-color: white; 
+    cursor: pointer;
+}
+
+.tab-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-label{
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+    margin-left: 11px;
+}
+
+.tab-content{
+    border: 2px solid grey;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+}
